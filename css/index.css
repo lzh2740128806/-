@@ -1,0 +1,114 @@
+.box{
+    margin: auto;
+    background: url(../images/beijing.jpg) no-repeat;
+    position: relative;
+    width: 750px;
+    height: 100%;
+    background-size: 100% 100%;
+}
+.content{
+    width: 90%;
+    margin: auto;
+    height: 15px;
+    padding-top: 250px;
+}
+/*标题_biaoti*/
+.biaoti h1{
+    font-weight: 400;
+    text-align: center;
+    font-size: 35px;
+    color: #db0124;
+}
+/*文字_wenzi*/
+.title{
+    width: 76%;
+    margin: auto;
+    margin-top: 32px;
+}
+.title p{text-indent: 24px;line-height: 30px;}
+.title p a{
+    font-size: 19px;
+    color: #000;
+}
+.title .p_a span{
+    font-size: 22px;
+    color: #f90606;
+}
+.title .p_c a{
+    font-size: 22px;
+    color: #f90606;
+}
+/*底图_ditu*/
+.Dzhang{
+    width: 76%;
+    margin: auto;
+    text-align: right;
+}
+/*点击人员信息_renyuanxinxi*/
+.renyuan{
+    width: 76%;
+    margin: auto;
+}
+.renyuan p a{
+    font-size: 19px;
+    color: #1d06fe;
+}
+@media screen and (max-width: 320px) {
+    .title p a {
+        font-size: 12px!important;
+    }
+    .title .p_a span {
+        font-size: 15px!important;
+    }
+    .Dzhang img{
+        width: 100%!important;
+    }
+    .renyuan p a {
+        font-size: 14px!important;
+    }
+}
+@media screen and (max-width: 414px) {
+    .box{
+        width: 100%;
+        min-height: 800px;
+    }
+    .content {
+        padding-top: 167px;
+}
+    .title {
+        margin-top: 7px;
+    }
+    .biaoti h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .title p a {
+        font-size: 15px;
+    }
+    .title .p_a span {
+        font-size: 16px;
+    }
+    .title .p_c a {
+        font-size: 15px;
+    }
+    .title p {
+        line-height: 20px;
+    }
+    .renyuan p a {
+        font-size: 15px;
+    }
+    .Dzhang img{
+        width: 83%;
+    }
+}
+@media screen and (min-width: 1024px){
+    .box {
+        position: relative;
+        width: 750px;
+        height: 1041px;
+        background: url(../images/beijing.jpg) no-repeat;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
